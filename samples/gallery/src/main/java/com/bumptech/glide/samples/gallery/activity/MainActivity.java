@@ -1,4 +1,4 @@
-package com.bumptech.glide.samples.gallery;
+package com.bumptech.glide.samples.gallery.activity;
 
 import android.Manifest.permission;
 import android.content.pm.PackageManager;
@@ -12,6 +12,9 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import com.bumptech.glide.MemoryCategory;
+import com.bumptech.glide.samples.gallery.GlideApp;
+import com.bumptech.glide.samples.gallery.HorizontalGalleryFragment;
+import com.bumptech.glide.samples.gallery.R;
 
 /** Displays a {@link HorizontalGalleryFragment}. */
 @RequiresApi(Build.VERSION_CODES.JELLY_BEAN)

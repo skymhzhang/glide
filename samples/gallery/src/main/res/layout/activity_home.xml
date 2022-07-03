@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".activity.HomeActivity">
+
+
+  <ImageView
+    android:id="@+id/img1"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_marginTop="50dp"
+    android:contentDescription="@string/app_name"
+    tools:background="@android:color/holo_red_dark" />
+
+  <ImageView
+    android:id="@+id/img2"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="300dp"
+    android:contentDescription="@string/app_name"
+    tools:background="@color/cardview_dark_background" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal">
+
+    <Button
+      android:id="@+id/btn_load1"
+      android:layout_width="wrap_content"
+      android:layout_height="50dp"
+      android:layout_marginBottom="50dp"
+      android:includeFontPadding="false"
+      android:text="加载图片1"
+      android:textColor="@android:color/black"
+      tools:ignore="SpUsage" />
+
+    <Button
+      android:id="@+id/btn_load2"
+      android:layout_width="wrap_content"
+      android:layout_height="50dp"
+      android:includeFontPadding="false"
+      android:text="加载图片2"
+      android:textColor="@android:color/black"
+      tools:ignore="SpUsage" />
+
+    <Button
+      android:id="@+id/btn_clear"
+      android:layout_width="wrap_content"
+      android:layout_height="50dp"
+      android:includeFontPadding="false"
+      android:text="清空磁盘缓存"
+      android:textColor="@android:color/black"
+      tools:ignore="SpUsage" />
+  </LinearLayout>
+
+</FrameLayout>
