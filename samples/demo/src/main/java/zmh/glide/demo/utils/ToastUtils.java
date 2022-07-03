@@ -1,9 +1,9 @@
-package com.bumptech.glide.samples.gallery.utils;
+package zmh.glide.demo.utils;
 
 import android.content.Context;
 import android.os.Looper;
 import android.widget.Toast;
-import com.bumptech.glide.samples.gallery.thread.ThreadManager;
+import zmh.glide.demo.thread.ThreadManager;
 
 public class ToastUtils {
   public static void show(Context context, String info) {

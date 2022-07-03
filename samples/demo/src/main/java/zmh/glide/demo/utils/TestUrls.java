@@ -1,4 +1,4 @@
-package com.bumptech.glide.samples.gallery.utils;
+package zmh.glide.demo.utils;
 
 /**
  * @author skymhzhang

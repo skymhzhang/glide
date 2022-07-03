@@ -1,4 +1,4 @@
-package com.bumptech.glide.samples.gallery.thread;
+package zmh.glide.demo.thread;
 
 
 import static java.util.concurrent.TimeUnit.SECONDS;

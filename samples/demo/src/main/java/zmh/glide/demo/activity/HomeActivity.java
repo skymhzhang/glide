@@ -1,13 +1,13 @@
-package com.bumptech.glide.samples.gallery.activity;
+package zmh.glide.demo.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.samples.gallery.R;
-import com.bumptech.glide.samples.gallery.utils.TestUrls;
-import com.bumptech.glide.samples.gallery.utils.ToastUtils;
-import com.bumptech.glide.samples.gallery.thread.ThreadManager;
+import com.zmh.glide.demo.R;
+import zmh.glide.demo.thread.ThreadManager;
+import zmh.glide.demo.utils.TestUrls;
+import zmh.glide.demo.utils.ToastUtils;
 
 public class HomeActivity extends Activity {
 

@@ -1,4 +1,4 @@
-package com.bumptech.glide.samples.gallery.test;
+package zmh.glide.demo.test;
 
 import android.graphics.Bitmap;
 import androidx.annotation.NonNull;

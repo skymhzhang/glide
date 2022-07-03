@@ -1,4 +1,4 @@
-package com.bumptech.glide.samples.gallery;
+package zmh.glide.demo;
 
 import android.content.Context;
 import android.util.Log;
